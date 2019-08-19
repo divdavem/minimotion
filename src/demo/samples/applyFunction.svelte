@@ -24,7 +24,7 @@
 			model[property] = value;
 
 			const {translate1, rotation, translate2, color} = model;
-			target.style['background-color'] = model.color;
+			target.style['background-color'] = color;
 			target.style.transform = [
 				`translateX(${translate1}px)`,
 				`rotate(${rotation}deg)`,

@@ -1,5 +1,5 @@
 import { ControlParams, AnimEntity, AnimContainer, PlayParams, TweenType, ResolvedTarget, GetValue, SetValue } from "./types";
-import { parseValue, log, getAnimationType, dom } from './utils';
+import { parseValue, log, getAnimationType } from './utils';
 import { ValueInterpolator } from './interpolators/types';
 import { createInterpolator } from './interpolators';
 
